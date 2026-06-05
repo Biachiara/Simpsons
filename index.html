@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenho: Os Simpsons</title>
+    <link rel="stylesheet" href="desenho.css">
+</head>
+<body>
+    <header> <!--cabeçalho-->
+        <div> <!-- div usada para agrupar o título e a imagem dos personagens -->
+            <h1>Os Simpsons</h1> <!--título principal-->
+            <img src="familia.jfif"> <!--imagem dos personagens-->
+        </div>
+    </header>
+    <main> <!--conteúdo principal da página-->
+        <section> <!--uma seção tamática sobre o personagem com id para estilizar esta seção de forma específica no CSS -->
+            <article> <!--conteúdo independente: texto sobre os personagens-->
+                <div> <!-- Bloco para organizar e estilizar o texto-->
+                    <p>A família Simpson é o núcleo da série animada de maior duração da história da televisão americana, servindo como uma lente satírica 
+                    através da qual os criadores de "Os Simpsons" examinam e criticam a sociedade, a cultura pop e a vida suburbana. Eles representam 
+                    uma versão exagerada da família de classe média americana disfuncional, mas, no fundo, unida pelo amor. A força motriz da narrativa 
+                    reside nos contrastes e interações entre seus membros. Homer, o pai preguiçoso e impulsivo, equilibra-se com Marge, a mãe paciente 
+                    e a âncora moral da casa. A rebeldia de Bart choca-se constantemente com a intelectualidade e a consciência social de Lisa, enquanto 
+                    a silenciosa Maggie observa tudo com inteligência surpreendente. Juntos, eles formam uma unidade que enfrenta, de forma cômica, 
+                    desafios cotidianos e situações bizarras que vão desde crises financeiras até viagens espaciais ou encontros com celebridades.
+                    Embora a série utilize a família para fazer comentários sociais e políticos inteligentes, a base de cada episódio é o relacionamento 
+                    entre os personagens. Eles podem ser falhos, egoístas ou negligentes, mas sempre retornam ao seu núcleo familiar, demonstrando que, 
+                    apesar do caos de Springfield, os laços que os unem são inquebráveis. A família Simpson é, em essência, um espelho divertido e perspicaz 
+                    da nossa própria humanidade</p>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+                <p>Veja um breve vídeo do desenho e depois acesse o site da <a href="https://www.disneyplus.com/browse/page-e68fa3ee-0f68-402d-9cb8-56883ae4c9dd" target="_blank">Disney</a> para assistir à série</p>
+                <video width="700" height="400" controls poster="capa_video.jpeg" title="Seu navegador não suporta vídeo HTML5."> <!-- <video> → cria a área do vídeo; controls → mostra botões de play, pause etc; title é para acessibilidade-->
+                    <source src="../videos/The Simpsons - Official Disney Plus Stream Trailer.mp4" type="video/mp4"> <!-- arquivo de vídeo, <source> → caminho do arquivo -->
+                </video>
+            </article>
+        </section>
+    </main>
+
+    <nav> <!-- Área de navegação do site -->
+        <div> <!-- div usada para agrupar os links de navegação -->
+            <h2>Saiba mais:</h2> <!--subtitulo-->
+            <ul> <!--lista não ordenada-->
+                <li><a href="homer.html">Homer Simpson</a></li> <!--link para a página sobre outros personagens-->
+                <li><a href="marge.html">Marge Simpson</a></li> <!--link para a página sobre outros personagens-->
+                <li><a href="bart.html">Bart Simpson</a></li> <!--link para a página sobre outros personagens-->
+                <li><a href="lisa.html">Lisa Simpson</a></li><!--link para a página sobre outros personagens-->
+                <li><a href="maggie.html">Maggie Simpson</a></li> <!--link para a página sobre outros personagens-->
+                <li><a href="form.html">Participe do Fã Clube dos Simpsons</a></li> <!--link para a página do formulário-->
+            </ul>
+        </div>
+    </nav>
+    <footer> <!--rodapé da página-->
+        <div> <!-- Div usada para estruturar e estilizar o conteúdo do rodapé -->
+            <p>© 2025 Beatriz Costa Chiara. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
